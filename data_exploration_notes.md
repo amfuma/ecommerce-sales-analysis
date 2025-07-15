@@ -56,8 +56,8 @@
   Formatted IDate to show only the date (e.g., 12/1/2010).  
 
 - **Total Price Column:** Created new column TotalPrice using:  
-  `=IF(D2>=0, D2 * H2, "Returned")`  
-  This returns total price for sold items, and "Returned" for returned products to keep revenue clean.  
+  `=IF(D2>=0, D2 * H2, "")`  
+  This returns total price for sold items, and blank for returned products to keep revenue clean.  
 
 ---
 
